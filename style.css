@@ -493,8 +493,18 @@ form input[type="password"] {
     }
 
     /* Estilos para os campos de entrada */
+
+    .login-page {
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
     form div {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     form label {
@@ -506,10 +516,10 @@ form input[type="password"] {
     form input[type="text"],
     form input[type="password"] {
         width: 100%;
-        padding: 10px;
+        padding: 5px;
         border: 1px solid #000000;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 12px;
         margin-bottom: 5px;
     }
 
@@ -518,12 +528,12 @@ form input[type="password"] {
         display: block;
         background-color: #00255a;
         color: #fff;
-        margin-top: 10px;
-        padding: 10px 20px;
+        margin-top: 5px;
+        padding: 5px 10px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: bold;
     }
 
@@ -532,7 +542,7 @@ form input[type="password"] {
     .login-link-forgot-password {
         text-align: flex-end;
         display: block;
-        font-size: 14px;
+        font-size: 12px;
         color: #333;
         text-decoration: none;
     }
@@ -542,16 +552,16 @@ form input[type="password"] {
         position: relative;
         text-align: center;
         display: block;
-        margin-top: 10px;
-        font-size: 14px;
+        margin-top: 5px;
+        font-size: 12px;
     }
 
     /* Estilos para o link de cadastro */
     .login-link-signup-now {
         text-align: center;
         display: block;
-        margin-top: 10px;
-        font-size: 14px;
+        margin-top: 5px;
+        font-size: 12px;
         color: #2e1dc9;
         text-decoration: underline;
     }
@@ -559,7 +569,7 @@ form input[type="password"] {
     /* Estilos para o fechar o formulário */
     .login-close {
         position: relative;
-        left: 350px;
+        left: 200px;
         cursor: pointer;
         font-size: 24px;
         text-decoration: none;
