@@ -1,45 +1,51 @@
+/* Reset de estilos globais */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilos para o corpo da página */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f5f5;
 }
 
+/* Estilos para a seção de cabeçalho */
 .header {
     background-color: #00255a;
+    padding: 10px;
 }
 
-/*************  ✨ Windsurf Command 🌟  *************/
+/* Estilos para o contêiner principal */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
 }
-/*******  7d5c1a65-6c30-4de2-8245-beb38e56487f  *******/    
 
+/* Estilos para o logotipo */
 .logo {
     height: 100px;
     margin-bottom: 10px;
 }
 
+/* Estilos para o ícone de login */
 .icone-login {
     background-color: #fff;
     height: 30px;
     border-radius: 15px;
-    position: absolute;
-    right: 200px;
+    left: 10px;
     top: 50px;
-}   
+}
 
+/* Estilos para o link do ícone de login */
 .icone-login a {
     text-decoration: none;
     color: #000000;
 }
 
+/* Estilos para o contêiner de pesquisa */
 .search-container {
     display: flex;
     align-items: center;
@@ -47,6 +53,7 @@ body {
     width: 1000px;
 }
 
+/* Estilos para o campo de entrada de pesquisa */
 .search-input {
     flex: 1;
     padding: 10px;
@@ -58,24 +65,27 @@ body {
     border: 2px solid #000000;
 }
 
+/* Estilos para o botão de pesquisa */
 .search-btn {
     background-color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
-    padding: 10px 10px;
+    padding: 10px;
     height: 34px;
     border: 2px solid #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+}
 
+/* Estilos para o botão de pesquisa quando passa o mouse */
 .search-btn:hover {
     background-color: #f0f0f0;
 }
 
+/* Estilos para a navegação */
 .navegação {
     background-color: #000000;
     padding: 10px;
@@ -84,6 +94,7 @@ body {
     outline: none;
 }
 
+/* Estilos para os links de navegação */
 .navegação a {
     display: inline-block;
     background-color: #fff;
@@ -93,36 +104,39 @@ body {
     border-radius: 5px;
     border: 1px solid #333;
     padding: 5px 10px;
-    transition: 0.5s;
+    transition: background-color 0.5s;
     cursor: pointer;
 }
 
+/* Estilos para os links de navegação quando passam o mouse */
 .navegação a:hover {
     background-color: #f7ea61;
 }
 
+/* Estilos para a área principal */
 .main {
     padding: 10px 0;
 }
 
+/* Estilos para a grade de produtos */
 .products-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 100%;
-
 }
 
+/* Estilos para as cartas de produto */
 .product-card {
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: box-shadow 0.5s;
 }
 
+/* Estilos para as cartas de produto quando passam o mouse */
 .product-card:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .product-image {
@@ -158,11 +172,109 @@ body {
     font-weight: bold;
 }
 
+/* Estilos para a tela de login */
+.login-page {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para o formulário de login */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o título do formulário de login */
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos para os campos de entrada */
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.login-button {
+    width: 100%;
+    display: block;
+    background-color: #00255a;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Estilos para o link de esqueceu a senha */
+.login-link-forgot-password {
+    text-align: flex-end;
+    display: block;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Estilos para o botão de login */
+.not-a-member {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* Estilos para o link de cadastro */
+.login-link-signup-now {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #2e1dc9;
+    text-decoration: underline;
+}
+
+/* Estilos para o fechar o formulário */
+.login-close {
+    position: relative;
+    left: 350px;
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: none;
+}
+
 .footer {
+    width: 100%;
     background-color: #fff;
     padding: 20px;
     text-align: center;
-    margin-top: 50px;
     border-top: 2px solid  #00255a;
 }
 
