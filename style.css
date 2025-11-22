@@ -19,6 +19,10 @@ body {
 
 /* Estilos para o contêiner principal */
 .container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
@@ -87,6 +91,9 @@ body {
 
 /* Estilos para a navegação */
 .navegação {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
     background-color: #000000;
     padding: 10px;
     text-align: center;
@@ -284,9 +291,10 @@ form input[type="password"] {
 }
 
 @media screen and (max-width: 768px) {
-    .container, .search-container {
+    .container, .search-container, .products-grid, .navegação {
         width: 100%;
         flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
