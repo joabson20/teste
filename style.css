@@ -11,9 +11,8 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Estilos para a seção de cabeçalho */
 .header {
-    background-color: #00255a;
+    background: linear-gradient(to right, rgba(0,37,90,1) 25%, rgb(9, 62, 141));
     padding: 10px;
 }
 
@@ -296,7 +295,7 @@ form input[type="password"] {
     /* Estilos para a seção de cabeçalho */
     .header {
         background-color: #00255a;
-        padding: 10px;
+        padding: 10px 30px;
         width: 100%;
     }
 
@@ -375,7 +374,7 @@ form input[type="password"] {
     .navegação {
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         background-color: #000000;
         padding: 5px;
@@ -388,7 +387,7 @@ form input[type="password"] {
     /* Estilos para os links de navegação */
     .navegação a {
         display: inline-block;
-        font-size: 12px;
+        font-size: 8px;
         background-color: #fff;
         text-decoration: none;
         color: #333;
@@ -399,7 +398,7 @@ form input[type="password"] {
         transition: background-color 0.5s;
         cursor: pointer;
         height: 24px;
-        width: 140px;
+        width: 100px;
     }
 
     /* Estilos para os links de navegação quando passam o mouse */
@@ -437,31 +436,30 @@ form input[type="password"] {
         width: 70%;
         display: flex;
         margin: 0 auto;
-        height: 250px;
-        margin-bottom: 15px;
+        height: 100px;
+        margin-bottom: 5px;
         border-radius: 8px;
         overflow: hidden;
     }
 
     .product-title {
         text-align: center;
-        font-size: 18px;
-        margin-bottom: 10px;
-        height: 20px;
+        font-size: 10px;
+        margin-bottom: 5px;
+        height: 40px;
         overflow: hidden;
     }
 
     .product-price {
         text-align: center;
-        font-size: 20px;
+        font-size: 12px;
         font-weight: bold;
         color: #333;
-        margin-bottom: 5px;
     }
 
     .product-discount {
         text-align: center;
-        font-size: 14px;
+        font-size: 10px;
         color: #027900;
         font-weight: bold;
     }
@@ -583,6 +581,11 @@ form input[type="password"] {
         border-top: 2px solid #00255a;
     }
 
+    .footer a {
+        color: #777;
+        font-size: 14px;
+    }
+}
     .footer a {
         color: #777;
         font-size: 14px;
