@@ -282,3 +282,11 @@ form input[type="password"] {
     color: #777;
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    .container, .search-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
