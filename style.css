@@ -295,26 +295,18 @@ form input[type="password"] {
     /* Estilos para a seção de cabeçalho */
     .header {
         background-color: #00255a;
-        padding: 10px 30px;
-        width: 100%;
     }
 
     /* Estilos para o contêiner principal */
     .container {
         display: flex;
-        position: relative;
-        justify-content: space-between;
         align-items: center;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 10px;
         width: 100%;
     }
 
-    /* Estilos para o logotipo */
     .logo {
         height: 50px;
-        margin-bottom: 10px;
+        margin: 0 0 10px -40px;
     }
 
     /* Estilos para o ícone de login */
@@ -334,9 +326,10 @@ form input[type="password"] {
 
     /* Estilos para o contêiner de pesquisa */
     .search-container {
-        align-items: center;
+        display: flex;
         gap: 5px;
-        width: 400px;
+        width: 300px;
+        margin: 0 auto;
     }
 
     /* Estilos para o campo de entrada de pesquisa */
@@ -586,7 +579,6 @@ form input[type="password"] {
         font-size: 14px;
     }
 }
-    .footer a {
         color: #777;
         font-size: 14px;
     }
