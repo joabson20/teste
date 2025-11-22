@@ -258,6 +258,7 @@ form input[type="password"] {
     margin-top: 10px;
     font-size: 14px;
 }
+
 /* Estilos para o link de cadastro */
 .login-link-signup-now {
     text-align: center;
@@ -282,7 +283,7 @@ form input[type="password"] {
     background-color: #fff;
     padding: 20px;
     text-align: center;
-    border-top: 2px solid  #00255a;
+    border-top: 2px solid #00255a;
 }
 
 .footer a {
@@ -291,10 +292,289 @@ form input[type="password"] {
 }
 
 @media screen and (max-width: 768px) {
-    .container, .search-container, .products-grid, .navegação {
+
+    /* Estilos para a seção de cabeçalho */
+    .header {
+        background-color: #00255a;
+        padding: 10px;
         width: 100%;
-        flex-direction: column;
-        grid-template-columns: repeat(2, 1fr);
     }
-    
+
+    /* Estilos para o contêiner principal */
+    .container {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px;
+        width: 100%;
+    }
+
+    /* Estilos para o logotipo */
+    .logo {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    /* Estilos para o ícone de login */
+    .icone-login {
+        background-color: #fff;
+        height: 24px;
+        border-radius: 15px;
+        left: 10px;
+        top: 30px;
+    }
+
+    /* Estilos para o link do ícone de login */
+    .icone-login a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* Estilos para o contêiner de pesquisa */
+    .search-container {
+        align-items: center;
+        gap: 5px;
+        width: 400px;
+    }
+
+    /* Estilos para o campo de entrada de pesquisa */
+    .search-input {
+        flex: 1;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+        outline: none;
+        height: 24px;
+        border: 1px solid #000000;
+    }
+
+    /* Estilos para o botão de pesquisa */
+    .search-btn {
+        background-color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 5px;
+        height: 24px;
+        border: 1px solid #000000;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Estilos para o botão de pesquisa quando passa o mouse */
+    .search-btn:hover {
+        background-color: #f0f0f0;
+    }
+
+    /* Estilos para a navegação */
+    .navegação {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        background-color: #000000;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+        outline: none;
+        width: 100%;
+    }
+
+    /* Estilos para os links de navegação */
+    .navegação a {
+        display: inline-block;
+        font-size: 12px;
+        background-color: #fff;
+        text-decoration: none;
+        color: #333;
+        margin: 0 5px;
+        border-radius: 5px;
+        border: 1px solid #333;
+        padding: 5px 5px;
+        transition: background-color 0.5s;
+        cursor: pointer;
+        height: 24px;
+        width: 140px;
+    }
+
+    /* Estilos para os links de navegação quando passam o mouse */
+    .navegação a:hover {
+        background-color: #f7ea61;
+    }
+
+    /* Estilos para a área principal */
+    .main {
+        padding: 10px 0;
+    }
+
+    /* Estilos para a grade de produtos */
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    /* Estilos para as cartas de produto */
+    .product-card {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        cursor: pointer;
+        transition: box-shadow 0.5s;
+    }
+
+    /* Estilos para as cartas de produto quando passam o mouse */
+    .product-card:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-image {
+        width: 70%;
+        display: flex;
+        margin: 0 auto;
+        height: 250px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .product-title {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 10px;
+        height: 20px;
+        overflow: hidden;
+    }
+
+    .product-price {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .product-discount {
+        text-align: center;
+        font-size: 14px;
+        color: #027900;
+        font-weight: bold;
+    }
+
+    /* Estilos para a tela de login */
+    .login-page {
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* Estilos para o formulário de login */
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Estilos para o título do formulário de login */
+    .login-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* Estilos para os campos de entrada */
+    form div {
+        margin-bottom: 10px;
+    }
+
+    form label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    form input[type="text"],
+    form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .login-button {
+        width: 100%;
+        display: block;
+        background-color: #00255a;
+        color: #fff;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+    /* Estilos para o link de esqueceu a senha */
+    .login-link-forgot-password {
+        text-align: flex-end;
+        display: block;
+        font-size: 14px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    /* Estilos para o botão de login */
+    .not-a-member {
+        position: relative;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    /* Estilos para o link de cadastro */
+    .login-link-signup-now {
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #2e1dc9;
+        text-decoration: underline;
+    }
+
+    /* Estilos para o fechar o formulário */
+    .login-close {
+        position: relative;
+        left: 350px;
+        cursor: pointer;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-top: 2px solid #00255a;
+    }
+
+    .footer a {
+        color: #777;
+        font-size: 14px;
+    }
 }
