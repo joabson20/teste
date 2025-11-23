@@ -4,59 +4,59 @@
 const products = [
     {
         id: 1,
-        title: "Bíblia de Estudo Pentecostal Harpa cristã - Almeida Revista e Corrigida (ARC)",
-        price: 190.00,
-        discount: 15,
-        image: "https://m.media-amazon.com/images/I/51R-J5UUpRL._SY342_.jpg"
+        title: "Bíblia Sagrada (NAA)",
+        price: 23.70,
+        discount: 40,
+        image: "https://m.media-amazon.com/images/I/71PhRNn5teL._SY342_.jpg"
     },
     {
         id: 2,
-        title: "Bíblia King James 1611 de Estudo Holman - Duotone - 7° Edição",
-        price: 204,
-        discount: 48,
-        image: "https://m.media-amazon.com/images/I/716VmVIXEsL._SY342_.jpg"
+        title: "Bíblia Sagrada (NAA)",
+        price: 23.70,
+        discount: 40,
+        image: "https://m.media-amazon.com/images/I/71PhRNn5teL._SY342_.jpg"
     },
     {
         id: 3,
-        title: "Bíblia de Estudos e sermões de C.H. Spurgeon - Capa luxo",
-        price: 199.90,
-        discount: 49,
-        image: "https://m.media-amazon.com/images/I/71-tXe1RyML._SY342_.jpg"
+        title: "Bíblia Sagrada (NAA)",
+        price: 23.70,
+        discount: 40,
+        image: "https://m.media-amazon.com/images/I/71PhRNn5teL._SY342_.jpg"
     },
     {
         id: 4,
-        title: "Bíblia de Estudo Explicada Média Luxo Vinho",
-        price: 150.00,
-        discount: 15,
-        image: "https://m.media-amazon.com/images/I/51j9n8-NIlL._SY342_.jpg"
+        title: "Bíblia Sagrada (NAA)",
+        price: 23.70,
+        discount: 40,
+        image: "https://m.media-amazon.com/images/I/71PhRNn5teL._SY342_.jpg"
     },
     {
         id: 5,
-        title: "Bíblia de Estudo Plenitude: Almeida Revista e Corrigida (ARC)",
-        price: 189.99,
-        discount: 20,
-        image: "https://m.media-amazon.com/images/I/91pHw+EnHKL._SY342_.jpg"
+        title: "Bíblia Sagrada (NAA)",
+        price: 23.70,
+        discount: 40,
+        image: "https://m.media-amazon.com/images/I/71PhRNn5teL._SY342_.jpg"
     },
     {
         id: 6,
-        title: "Bíblia Pregador Pentecostal | SBB | Almeida Revista e Corrigida (ARC)",
-        price: 214.00,
-        discount: 8,
-        image: "https://m.media-amazon.com/images/I/71LEKdtcXlL._SY342_.jpg"
+        title: "Bíblia Sagrada (NAA)",
+        price: 23.70,
+        discount: 40,
+        image: "https://m.media-amazon.com/images/I/71PhRNn5teL._SY342_.jpg"
     },
     {
         id: 7,
-        title: "A Bíblia da Mulher ARC Nova Edição: Almeida Revista e Corrigida (ARC)",
-        price: 210.00,
-        discount: 31,
-        image: "https://m.media-amazon.com/images/I/81ItEwZQVOL._SY342_.jpg"
+        title: "Bíblia Sagrada (NAA)",
+        price: 23.70,
+        discount: 40,
+        image: "https://m.media-amazon.com/images/I/71PhRNn5teL._SY342_.jpg"
     },
     {
         id: 8,
-        title: "Bíblia do Obreiro ARC: Almeida Revista e Corrigida (ARC)",
-        price: 96.00,
-        discount: 32,
-        image: "https://m.media-amazon.com/images/I/81vOgKPi1XL._SY342_.jpg"
+        title: "Bíblia Sagrada (NAA)",
+        price: 23.70,
+        discount: 40,
+        image: "https://m.media-amazon.com/images/I/71PhRNn5teL._SY342_.jpg"
     },
     
 ];
