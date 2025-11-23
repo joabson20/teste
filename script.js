@@ -7,7 +7,7 @@ const products = [
         title: "Bíblia de Estudo Pentecostal Harpa cristã - Almeida Revista e Corrigida (ARC) ",
         price: 190.00,
         discount: 15,
-        image: "https://m.media-amazon.com/images/I/51R-J5UUpRL._SY342_.jpg"
+        image: "https://m.media-amazon.com/images/I/61QifjvIOlL._SY342_.jpg"
     },
     {
         id: 2,
