@@ -9,6 +9,55 @@ const products = [
         discount: 15,
         image: "https://th.bing.com/th/id/OIP.QThX4wkaF64-4eSlNbE9QgHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3"
     },
+    {
+        id:2,
+        title: "Bíblia Sagrada| harpa cristã",
+        price: 40.00,
+        discount: 15,
+        image: "https://th.bing.com/th/id/OIP.QThX4wkaF64-4eSlNbE9QgHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3"
+    },
+    {
+        id: 3,
+        title: "Bíblia Sagrada| harpa cristã",
+        price: 40.00,
+        discount: 15,
+        image: "https://th.bing.com/th/id/OIP.QThX4wkaF64-4eSlNbE9QgHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3"
+    },
+    {
+        id: 4,
+        title: "Bíblia Sagrada| harpa cristã",
+        price: 40.00,
+        discount: 15,
+        image: "https://th.bing.com/th/id/OIP.QThX4wkaF64-4eSlNbE9QgHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3"
+    },
+    {
+        id: 5,
+        title: "Bíblia Sagrada| harpa cristã",
+        price: 40.00,
+        discount: 15,
+        image: "https://th.bing.com/th/id/OIP.QThX4wkaF64-4eSlNbE9QgHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3"
+    },
+    {
+        id: 6,
+        title: "Bíblia Sagrada| harpa cristã",
+        price: 40.00,
+        discount: 15,
+        image: "https://th.bing.com/th/id/OIP.QThX4wkaF64-4eSlNbE9QgHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3"
+    },
+    {
+        id: 7,
+        title: "Bíblia Sagrada| harpa cristã",
+        price: 40.00,
+        discount: 15,
+        image: "https://th.bing.com/th/id/OIP.QThX4wkaF64-4eSlNbE9QgHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3"
+    },
+    {
+        id: 8,
+        title: "Bíblia Sagrada| harpa cristã",
+        price: 40.00,
+        discount: 15,
+        image: "https://th.bing.com/th/id/OIP.QThX4wkaF64-4eSlNbE9QgHaHa?w=220&h=220&c=7&r=0&o=7&pid=1.7&rm=3"
+    },
     
 ];
 
