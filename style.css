@@ -392,6 +392,7 @@ form input[type="password"] {
         height: 20px;
         width: 100px;
     }
+
     /* Estilos para os links de navegação quando passam o mouse */
     .navegação a:hover {
         background-color: #f7ea61;
@@ -402,40 +403,44 @@ form input[type="password"] {
         padding: 10px 0;
     }
 
+    /* Estilos para a grade de produtos */
     .products-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 
+    /* Estilos para as cartas de produto */
     .product-card {
         background-color: #fff;
         border-radius: 8px;
-        padding: 20px;
+        padding: 10px;
         cursor: pointer;
         transition: box-shadow 0.5s;
     }
 
+    /* Estilos para as cartas de produto quando passam o mouse */
     .product-card:hover {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
 
     .product-image {
-        width: 70%;
+        width: 100%;
         display: flex;
         margin: 0 auto;
-        height: 100px;
+        height: 150px;
         margin-bottom: 5px;
         border-radius: 8px;
-        overflow: hidden;
     }
 
     .product-title {
         text-align: center;
         font-size: 10px;
+        margin-top: 10px;
         margin-bottom: 5px;
-        height: 40px;
-        overflow: hidden;
+        height: 30px;
+        overflow: visible;
+
     }
 
     .product-price {
@@ -564,14 +569,14 @@ form input[type="password"] {
     .footer {
         width: 100%;
         background-color: #fff;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
         border-top: 2px solid #00255a;
     }
 
     .footer a {
         color: #777;
-        font-size: 14px;
+        font-size: 8px;
     }
 }
         color: #777;
