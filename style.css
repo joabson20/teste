@@ -384,13 +384,13 @@ form input[type="password"] {
         background-color: #fff;
         text-decoration: none;
         color: #333;
-        margin: 0 5px;
+        margin: 0 auto;
         border-radius: 5px;
         border: 1px solid #333;
         padding: 5px 5px;
         transition: background-color 0.5s;
         cursor: pointer;
-        height: 24px;
+        height: 20px;
         width: 100px;
     }
 
@@ -404,14 +404,12 @@ form input[type="password"] {
         padding: 10px 0;
     }
 
-    /* Estilos para a grade de produtos */
     .products-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
 
-    /* Estilos para as cartas de produto */
     .product-card {
         background-color: #fff;
         border-radius: 8px;
@@ -420,7 +418,6 @@ form input[type="password"] {
         transition: box-shadow 0.5s;
     }
 
-    /* Estilos para as cartas de produto quando passam o mouse */
     .product-card:hover {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
