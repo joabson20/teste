@@ -144,10 +144,10 @@ body {
 }
 
 .product-image {
-    width: 100%;
+    width: 250px;
     display: flex;
     margin: 0 auto;
-    height: 250px;
+    height: 280px;
     margin-bottom: 15px;
     border-radius: 8px;
     overflow: visible;
@@ -312,8 +312,7 @@ form input[type="password"] {
         background-color: #fff;
         height: 24px;
         border-radius: 15px;
-        left: 10px;
-        top: 30px;
+        margin-left: 10px;
     }
 
     /* Estilos para o link do ícone de login */
@@ -424,10 +423,10 @@ form input[type="password"] {
     }
 
     .product-image {
-        width: 100%;
+        width: 70%;
         display: flex;
         margin: 0 auto;
-        height: 150px;
+        height: 130px;
         margin-bottom: 5px;
         border-radius: 8px;
     }
