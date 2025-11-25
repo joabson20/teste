@@ -38,25 +38,32 @@ const products = [
         image: "https://m.media-amazon.com/images/I/91pHw+EnHKL._SY342_.jpg"
     },
     {
-        id: 5,
+        id: 6,
         title: "Bíblia Pregador Pentecostal | SBB | Almeida Revista e Corrigida (ARC) ",
         price: 214.00,
         discount: 8,
         image: "https://m.media-amazon.com/images/I/71LEKdtcXlL._SY342_.jpg"
     },
     {
-        id: 5,
+        id: 7,
         title: "A Bíblia da Mulher ARC Nova Edição: Almeida Revista e Corrigida (ARC) ",
         price: 210.00,
         discount: 31,
         image: "https://m.media-amazon.com/images/I/81ItEwZQVOL._SY342_.jpg"
     },
     {
-        id: 5,
+        id: 8,
         title: "Bíblia do Obreiro ARC: Almeida Revista e Corrigida (ARC) ",
         price: 96.00,
         discount: 32,
         image: "https://m.media-amazon.com/images/I/81vOgKPi1XL._SY342_.jpg"
+    },
+    {
+        id: 9,
+        title: "Bíblia de Estudo Patmos Grande Luxo Preta",
+        price: 339.00,
+        discount: 21,
+        image: "https://m.media-amazon.com/images/I/71sv3B1rWjL._SY342_.jpg"
     },
 ];
 
