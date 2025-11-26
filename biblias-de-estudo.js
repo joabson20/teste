@@ -61,7 +61,7 @@ const products = [
     {
         id: 9,
         title: "Bíblia de Estudo Patmos Grande Luxo Preta",
-        price: 339.00,
+        price: 250.00,
         discount: 21,
         image: "https://m.media-amazon.com/images/I/71sv3B1rWjL._SY342_.jpg"
     },
